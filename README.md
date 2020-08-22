@@ -1,9 +1,7 @@
 # Employee Attrition Challenge by K. Dehnad (Spring 2020, Stevens Institute of Technology)
+Developing a classification model(s) to predict the potential of employees leaving the company. 
 The project is originally submitted for CS 513 Knowledge Discovery and Data Mining.<br/>
 The dataset was provided as a challenge by professor K. Dehnad.<br/>
-
-## Problem Statement:
-To develop a classification model(s) to predict the potential of employees leaving the company. 
 
 ## Data Preparation:
 In this stage, `EMP_ID`, `JOBCODE`, `REFERRAL_SOURCE`, `TERMINATION_YEAR` columns are also dropped as the first two are random numbers, and `TERMINATION_YEAR` is a retrospectively collected data.<br/>
