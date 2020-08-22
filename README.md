@@ -18,7 +18,7 @@ We have also performed backward and stepwise selection, and the result was almos
 `Backwards: JOB_GROUP + ANNUAL_RATE + PREVYR_1 + PREVYR_5 + PREVYR_3 + PREVYR_4`<br/>
 `Stepwise: JOB_GROUP + ANNUAL_RATE + PREVYR_5 + PREVYR_1 + PREVYR_4 + PREVYR_3 + TRAVELLED_REQUIRED`<br/>
 <br/>
-As our dataset is big enough, I have done 80/20 split. The training and test sets of ANN include all the preprocessed columns (in hopes of detecting the anomalies in the data). In contrast, training and test sets of other models include only the significant columns determined by forwards selection.<br/>
+As the dataset is big enough, I have done 80/20 split. The training and test sets of ANN include all the preprocessed columns (in hopes of detecting the anomalies in the data). In contrast, training and test sets of other models include only the significant columns determined by forwards selection.<br/>
 <br/>
 These are the algorithms that I have used for our predictions:
 - Multivariate Logistic Regression, 
