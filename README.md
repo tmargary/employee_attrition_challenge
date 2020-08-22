@@ -1,5 +1,5 @@
 # Employee Attrition Challenge by K. Dehnad (Stevens Institute of Technology)
-Final Project for CS 513 Knowledge Discovery and Data Mining
+Final Project for CS 513 Knowledge Discovery and Data Mining. <\p>
 The dataset was provided as a challenge by professor K. Dehnad.
 
 ## Problem Statement:
