@@ -33,4 +33,4 @@ These are the algorithms that I have used for our predictions:
 - Ensemble Model.
 
 In the Ensemble Model, I have calculated the weighted average of the predicted probabilities of the most successful algorithms that we have used during the analysis.
-Ensemble Model gave the highest accuracy of 75.14%.
+The Ensemble Model gave the highest accuracy of **75.14%**.
