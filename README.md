@@ -9,7 +9,7 @@ To develop a classification model(s) to predict the potential of employees leavi
 In this stage, `EMP_ID`, `JOBCODE`, `REFERRAL_SOURCE`, `TERMINATION_YEAR` columns are also dropped as the first two are random numbers, and `TERMINATION_YEAR` is a retrospectively collected data.<br/>
 `REFERRAL_SOURCE` is dropped too because, as the analysis shows (forwards selection), it does not have significance, and there is no need to treat the missing values here. As the rest of the dataset is clean, and there are not many null values, the raws are dropped.<br/>
 As the dataset doesn’t have any missing values, I have performed log transformation for the continual variables as it results in slightly better residuals. Next, I have scaled them.<br/>
-Next, I have checked if our target variable `STATUS` column is balanced. Since the column is almost perfectly balanced (1 – 5394, 0 – 4217), I have factored the categorical columns using the for loop, as well as processed the data for ANN (fully numerical dataset).
+Next, I have checked if our target variable `STATUS` column is balanced. Since the column is almost perfectly balanced `(1 – 5394, 0 – 4217)`, I have factored the categorical columns using the for loop, as well as processed the data for ANN (fully numerical dataset).
 
 ## Modeling:
 For variable selection, I have performed forward selection, and the results are as follows:<br/>
